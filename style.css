@@ -1,0 +1,101 @@
+/* General Reset */
+body,
+ul,
+li,
+a,
+button {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Arial", sans-serif;
+}
+
+/* Navbar Container */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  height: 70px;
+}
+
+.desktop-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Logo Section */
+.nav-logo {
+  height: 40px;
+}
+
+/* Navigation Links */
+.nav-list ul {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-list a {
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: #007bff;
+}
+
+/* Buttons Section */
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-sign {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: #007bff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.nav-sign:hover {
+  text-decoration: underline;
+}
+
+.nav-create {
+  background-color: #003366; /* Dark Blue Background */
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-create:hover {
+  background-color: #002244;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .nav-list ul {
+    display: none;
+  }
+
+  .menu-bar {
+    display: block;
+    height: 30px;
+    cursor: pointer;
+  }
+}

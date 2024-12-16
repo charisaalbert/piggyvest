@@ -1,0 +1,91 @@
+/* you can create variables in css  */
+
+/* how to specify variables */
+/* you just type in '--' and then select your variable */
+
+:root {
+  --bg-blue: #062863;
+  --text-blue: #083e9e;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--bg-blue);
+}
+
+.wrapper {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: white;
+  width: 450px;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+
+.form-top {
+  text-align: center;
+}
+
+.form-top {
+  color: var(--text-blue);
+  font-size: 1.4rem;
+  margin: 0;
+  line-height: 0.5rem;
+}
+
+.form-top p {
+  font-size: 1rem;
+  color: grey;
+  margin-top: 0px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+/* your "%" depends on the form container. it is responsive to the */
+form input {
+  background-color: #edf2f7;
+  border: none;
+  padding: 15px 20px;
+  width: 90%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button {
+  width: 90%;
+  align-content: center;
+  background-color: var(--text-blue);
+  margin-top: 50px;
+  padding: 15px 0;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--bg-blue);
+}
+
+.new {
+  color: white;
+  text-align: center;
+}
+
+.Forgot {
+  color: white;
+  text-align: center;
+}
+
+.wrapper svg {
+  margin-top: 100px;
+}

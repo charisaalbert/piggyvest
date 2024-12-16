@@ -1,0 +1,89 @@
+:root{
+    --bg-blue: #062863;
+    --text-blue: #083e9e;
+    --text-grey: #4a5568;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bg-blue);
+}
+
+.wrapper{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin-top: -100px;
+}
+.form-container{
+    background-color: white;
+    width: 450px;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+.form-top{
+    text-align: center;
+}
+.form-top h4{
+    color: var(--text-blue);
+    font-size: 1.4rem;
+    margin: 0;
+    line-height: 0.5rem;
+}
+.form-top p {
+    font-size: 1rem;
+    color: var(--text-grey);
+}
+form{
+    margin-top: 40px;
+}
+.form-input{
+    margin-top: 40px;
+}
+form label{
+    display: block;
+    margin-block: 8px;
+    color: #4a5568;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+form input{
+background-color: #edf2f7;
+border: none;
+padding: 10px 10px;
+font-size: 1.3rem;
+border-radius: 5px;
+width: 100%;
+}
+
+button{
+    width: 100%;
+    padding: 15px 0;
+    background-color: #083e9e;
+    margin-top: 40px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+} 
+ button:hover{
+    background-color: #062863;
+ }
+ svg{
+    margin-top: 70px;
+    margin-bottom: -100px;
+    margin-left: 10px;
+ }
+ .ret{
+    color: white;
+    text-align: center;
+    margin-top: -30px;
+ }
+ .pet{
+    color: white;
+    text-align: center;
+ }
